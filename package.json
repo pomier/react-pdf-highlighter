@@ -30,6 +30,7 @@
     "format": "biome format --write",
     "lint": "biome check",
     "clean": "rm -rf dist",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
